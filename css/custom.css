@@ -1,0 +1,82 @@
+html, body {
+
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.btnbtn-primary{
+  background-color:#B24848;
+  color:#FFFFFF;
+}
+.btnbtn-primary:hover{
+  background-color:5A4242;
+}
+
+.btn-outline-dark{
+  background-color:#B24848;
+  color:#FFFFFF;
+}
+
+.btn-outline-dark:hover{
+  background-color:#5A4242;
+}
+
+.navbar-light, .navbar-toggler{
+  color:#BD6262;
+  border-color:#BD6262;
+}
+.navbar-light, .navbar-toggler:hover{
+  color:#B04848;
+  border-color:#B04848;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+
+}
+
+footer {
+    background-color: #FF8D8D;
+    
+}
+
+footer a {
+    color: white;
+
+}
+
+footer a:hover {
+    color: #DFDFDF;
+
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
